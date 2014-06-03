@@ -138,7 +138,6 @@
     <ClInclude Include="..\Classes\CalcManager.h" />
     <ClInclude Include="..\Classes\common\BaseDataCmd.h" />
     <ClInclude Include="..\Classes\common\ItemUserCmd.h" />
-    <ClInclude Include="..\Classes\common\UserMapDataUserCmd.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\public.h" />
     <ClInclude Include="..\Classes\Singleton.h" />
