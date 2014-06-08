@@ -10,7 +10,7 @@
 #include "cocos2d.h"
 
 #include "Singleton.h"
-#include "./common/BaseDataCmd.h"
+#include "public.h"
 
 using namespace cocos2d;
 
@@ -19,7 +19,5 @@ class CCalcManager : public Singleton<CCalcManager>
 public:
 	CCalcManager(void);
 	~CCalcManager(void);
-
-
 
 };

@@ -130,6 +130,7 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\CalcManager.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\TableManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,9 +139,13 @@
     <ClInclude Include="..\Classes\CalcManager.h" />
     <ClInclude Include="..\Classes\common\BaseDataCmd.h" />
     <ClInclude Include="..\Classes\common\ItemUserCmd.h" />
+    <ClInclude Include="..\Classes\common\MagicUserDataCmd.h" />
+    <ClInclude Include="..\Classes\common\MapUserDataCmd.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\public.h" />
     <ClInclude Include="..\Classes\Singleton.h" />
+    <ClInclude Include="..\Classes\Table.h" />
+    <ClInclude Include="..\Classes\TableManager.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
