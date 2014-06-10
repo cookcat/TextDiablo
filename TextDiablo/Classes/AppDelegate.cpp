@@ -4,6 +4,8 @@
 #include <string>
 
 #include "HelloWorldScene.h"
+#include "scene/RoleSelectScene.h"
+
 #include "AppMacros.h"
 
 USING_NS_CC;
@@ -66,6 +68,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
         director->setContentScaleFactor(MIN(smallResource.size.height/designResolutionSize.height, smallResource.size.width/designResolutionSize.width));
     }
+
     
     // set searching path
     FileUtils::getInstance()->setSearchPaths(searchPath);
@@ -77,7 +80,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    auto scene = HelloWorld::scene();
+    auto scene = CRoleSelectScene::create();
 
     // run
     director->runWithScene(scene);

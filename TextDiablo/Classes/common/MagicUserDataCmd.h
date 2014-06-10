@@ -9,6 +9,7 @@
 
 #pragma once
 
+#include <memory.h>
 #include "BaseDataCmd.h"
 
 #define MAX_RUNE_NUM 5

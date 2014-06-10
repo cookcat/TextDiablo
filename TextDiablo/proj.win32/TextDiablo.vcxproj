@@ -129,8 +129,11 @@
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\CalcManager.cpp" />
+    <ClCompile Include="..\Classes\gui\RoleSelectLayer.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\scene\RoleSelectScene.cpp" />
     <ClCompile Include="..\Classes\TableManager.cpp" />
+    <ClCompile Include="..\Classes\TextureManager.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,11 +144,14 @@
     <ClInclude Include="..\Classes\common\ItemUserCmd.h" />
     <ClInclude Include="..\Classes\common\MagicUserDataCmd.h" />
     <ClInclude Include="..\Classes\common\MapUserDataCmd.h" />
+    <ClInclude Include="..\Classes\gui\RoleSelectLayer.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\public.h" />
+    <ClInclude Include="..\Classes\scene\RoleSelectScene.h" />
     <ClInclude Include="..\Classes\Singleton.h" />
     <ClInclude Include="..\Classes\Table.h" />
     <ClInclude Include="..\Classes\TableManager.h" />
+    <ClInclude Include="..\Classes\TextureManager.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

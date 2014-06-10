@@ -84,7 +84,7 @@ namespace Cmd{
 
 		stDefenceProperty()
 		{
-			armor = blockDamage = blockRate = dodge =reduce =0;
+			armor = blockDamage = blockRate = ignore =reduce =0;
 			memset(attackTypeResistance,0,sizeof(attackTypeResistance[0])*eAttackTypeNum);
 			memset(attackModeReduce,0,sizeof(attackModeReduce[0])*eAttackModeNum);
 		}

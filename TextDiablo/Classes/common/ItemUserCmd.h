@@ -10,6 +10,7 @@
 #pragma once
 
 #include "BaseDataCmd.h"
+#include "MagicUserDataCmd.h"
 
 namespace Cmd{
 
@@ -98,7 +99,7 @@ namespace Cmd{
 		int32_t cooldown;		//使用后CD时间
 		int32_t needblacksmith;		//使用所需铁匠技能等级
 		int32_t needjewelry;				//使用所需珠宝技能等级
-		stEffectData effect;			//使用效果
+		Cmd::stEffectData effect;			//使用效果
 
 		int32_t mainMagicNum;		//主魔法属性数目
 		stMagicProperty mainMagicProperty[MAX_MAINMAGICPROP_NUM];	//主魔法属性

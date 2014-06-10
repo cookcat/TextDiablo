@@ -15,7 +15,6 @@
 #define MAX_MAINMAGICPROP_NUM 5
 #define MAX_SUBMAGICPROP_NUM 5
 
-typedef char int8_t;
 typedef unsigned char uint8_t;
 typedef unsigned char BYTE;
 
