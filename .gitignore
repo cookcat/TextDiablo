@@ -24,4 +24,8 @@ TextDiablo/proj.win32/Debug.win32/libiconv.lib
 *.lib
 *.dll
 *.idb
+<<<<<<< HEAD
 *.opensdf
+=======
+TextDiablo/.cocos-project.json
+>>>>>>> b3d0904e4f594847f142d9143a4d507a23509d39
