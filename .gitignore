@@ -24,3 +24,4 @@ TextDiablo/proj.win32/Debug.win32/libiconv.lib
 *.lib
 *.dll
 *.idb
+*.opensdf
